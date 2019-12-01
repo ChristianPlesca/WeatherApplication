@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/CSS/clean-blog.css">
+    <link rel="stylesheet" href="assets/CSS/clean-blog.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Bar / Logo Bar-->
+        <nav>
+            <div class="col-12 header">
+                <img id="logo" class="logo" src="assets/images/Untitled.png" alt="Logo">
+            </div>
+
+        </nav>
+    </header>
+    <div class="background-image-container" id="background-image-container">
+        <div class="search-box">
+            <div class="input-field">
+                <div id="enter-city">
+                </div>
+                <input type="search" name="" id="input" class="form-control input1" placeholder="Please Enter a City!">
+
+                <!-- Search Box-->
+                <div class="search-button">
+                    <button id="button" class="btn btn-primary button">Search</button>
+                    <div id="showWhether"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRM7YztY_z9XS-5UfyJ2IK2xhl3RAHiEY&libraries=places&callback=init" async defer></script>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>

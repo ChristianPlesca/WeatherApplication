@@ -1,0 +1,46 @@
+.button {
+    margin: 15px;
+    text-align: center;
+}
+
+.background-image-container {
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/images/main-background-image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search-box {
+    text-align: center;
+}
+
+.weather-icon {
+    margin: 15px;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 17px;
+    width: 17px;
+    display: block;
+    background-image: url(/assets/images/cancel-button.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+}
+
+.header {
+    text-align: center;
+    background-color: currentColor;
+}
+
+.logo {
+    margin: 10px;
+}
